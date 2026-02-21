@@ -1,0 +1,51 @@
+{
+  "name": "capnweb-better-types",
+  "version": "0.1.0",
+  "description": "Temporary copy of capnweb dist/index.d.ts (PR #142).",
+  "license": "MIT",
+  "type": "module",
+  "sideEffects": false,
+  "types": "./capnweb.d.ts",
+  "files": [
+    "capnweb.d.ts",
+    "noop.js",
+    "tsconfig.paths.json",
+    "README.md",
+    "LICENSE.txt"
+  ],
+  "exports": {
+    ".": {
+      "types": "./capnweb.d.ts",
+      "default": "./noop.js"
+    },
+    "./capnweb": {
+      "types": "./capnweb.d.ts",
+      "default": "./noop.js"
+    },
+    "./tsconfig": "./tsconfig.paths.json",
+    "./package.json": "./package.json"
+  },
+  "peerDependencies": {
+    "capnweb": "^0.5.0"
+  },
+  "peerDependenciesMeta": {
+    "capnweb": {
+      "optional": false
+    }
+  },
+  "engines": {
+    "node": ">=18"
+  },
+  "publishConfig": {
+    "access": "public"
+  },
+  "keywords": [
+    "capnweb",
+    "typescript",
+    "types",
+    "rpc"
+  ],
+  "scripts": {
+    "pack:dry": "npm pack --dry-run"
+  }
+}

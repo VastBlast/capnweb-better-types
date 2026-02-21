@@ -1,0 +1,9 @@
+{
+  "compilerOptions": {
+    "paths": {
+      "capnweb": [
+        "./node_modules/capnweb-better-types/capnweb"
+      ]
+    }
+  }
+}
