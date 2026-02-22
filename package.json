@@ -1,6 +1,6 @@
 {
   "name": "capnweb-better-types",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "Temporary copy of capnweb dist/index.d.ts (PR #142).",
   "license": "MIT",
   "type": "module",
