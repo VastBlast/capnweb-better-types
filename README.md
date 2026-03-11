@@ -1,9 +1,10 @@
+# Archived since it has been merged
 # capnweb-better-types
 
 Temporary package that ships a copy of `dist/index.d.ts` from:
 https://github.com/cloudflare/capnweb/pull/142
 
-Use this only until that PR is merged and released in `capnweb`.
+~Use this only until that PR is merged and released in `capnweb`.~
 
 ## Install
 
